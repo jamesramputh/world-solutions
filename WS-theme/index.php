@@ -50,7 +50,7 @@
             <div class="clear"></div>
         </header>
 
-        <div class="row main-content">
+        <div class="row-fluid main-content">
             <div class="container">
                 <h1>Hello There Guys!</h1>
                 <p>This is the start of a revolution, a partnership and a vision that can have endless possibilities and benefits for humanity.</p>
