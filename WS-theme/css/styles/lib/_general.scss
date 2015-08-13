@@ -1,0 +1,53 @@
+//SITEWIDE STYLES
+
+$lato: 'Lato', sans-serif;
+$darkGrey: #363636;
+$mainBlue: #3B6AA0;
+$lightestBlue: #ebf0f5;
+$maroonRed: #AE0800;
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+  font-family:$lato;
+}
+
+h1{
+  font-size: 30px;
+}
+
+div, p,span{
+  font-family:$lato;
+}
+
+.clear{
+	clear:both;
+}
+
+//Regular Mixins
+@mixin image($filename_sans_ext, $ext, $background_size){
+  $file: '#{$filename_sans_ext}.#{$ext}';
+
+  background-image:url('../../img/#{$file}');
+  background-size:$background_size;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+// Media mixins
+$mobile: "max-width: 767px";
+$gtMobile: "min-width: 768px";
+
+$ltDesktop: "max-width: 979px";
+$gtTablet: "min-width: 980px";
+
+$gtDesktop: "min-width: 1200px";
+$ltLarge: "max-width: 1199px";
+
+$normal: "min-width: 980px) and (max-width: 1199px";
+
+$small: "min-width: 768px) and (max-width: 979px";
+
+$large: "min-width: 1200px";
+
+
