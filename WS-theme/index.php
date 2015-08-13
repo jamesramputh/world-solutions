@@ -54,16 +54,14 @@
             <div class="container">
                 <h1>Hello There Guys!</h1>
                 <p>This is the start of a revolution, a partnership and a vision that can have endless possibilities and benefits for humanity.</p>
-                <p>Let's get started by coding this bad boy</p>
-                <p>NOTE: this template is just a starter with a bunch of jquery libraries for us to build upon. We still need to add the laravel framework.</p>
+                <p>Let's get started by coding this bad boy!</p>
+                <p>NOTE: this template is just a starter with a bunch of jquery libraries for us to build upon. We still need to add the laravel framework. The work is ahead of us!</p>
             </div>
         </div>
 
-
-
 		<div id="footer">	
 		  <div class="container">
-                <div class="footer-content">&copy 2015 World Solutions</div>
+                <div class="footer-content">&copy <?php echo date('Y'); ?> World Solutions</div>
 		  </div>
 		</div>
 
