@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-size: 30px; }
+
+div, p, span {
+  font-family: "Lato", sans-serif; }
+
+.clear {
+  clear: both; }
+
+#footer {
+  padding: 30px 0;
+  border-top: solid 1px #cdcdcd; }
+  #footer .footer-content {
+    text-align: center;
+    font-size: 16px; }
+
+body.home .main-content {
+  min-height: 600px; }
